@@ -23,15 +23,15 @@ Before running the project, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/priyanshukatiyar14/log-monitoring.git
+   cd log-monitoring
    ```
 
 2. Create a virtual environment (optional but recommended):
 
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   python -m venv env
+   source env/bin/activate  # On Windows use `env\Scripts\activate`
    ```
 
 3. Install the required packages:
@@ -74,10 +74,6 @@ Before running the project, ensure you have the following installed:
 - Contains the `LogConsumer` class that handles WebSocket connections.
 - Monitors the log file for new entries and broadcasts updates to connected clients.
 
-### `modify_logs.py`
-
-- A Django management command that appends realistic log entries to the log file at regular intervals.
-
 ## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
@@ -94,5 +90,3 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 - If you have specific dependencies, add them to `requirements.txt` and include instructions for any additional setup.
 - Modify any project-specific instructions or information as needed.
 ```
-
-Feel free to adjust any sections further based on your specific needs!
