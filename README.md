@@ -89,4 +89,3 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 - Update the repository URL in the **Clone the repository** section.
 - If you have specific dependencies, add them to `requirements.txt` and include instructions for any additional setup.
 - Modify any project-specific instructions or information as needed.
-```
